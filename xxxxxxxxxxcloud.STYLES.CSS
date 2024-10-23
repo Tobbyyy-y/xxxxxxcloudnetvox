@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    padding: 50px 0;
+}
+
+/* Hero Section (First Page) */
+.hero-equal-height {
+    background-color: blue; /* Blue background for the first page */
+    color: white;
+}
+
+.hero-slider-content h1,
+.hero-slider-content p {
+    color: white;
+}
+
+.hero-slider-content a {
+    background-color: white;
+    color: blue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-slider-content a:hover {
+    background-color: ash;
+    color: white;
+}
+
+.img-wrap img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Domain Search Section */
+.find-domain-area {
+    background-color: white; /* White background from search domain */
+    padding: 50px 0;
+    color: black;
+}
+
+.find-domain-area h2 {
+    color: blue;
+}
+
+.domain-search-form input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.domain-search-form select,
+.domain-search-form button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.domain-price-help p {
+    margin: 0 10px;
+}
+
+.domain-price-help span {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Our Team Section */
+.client-section {
+    background-color: ash; /* Ash background from the overall feature */
+    text-align: center;
+    color: black;
+}
+
+.client-section h2 {
+    color: blue;
+}
+
+.customer-logo {
+    max-width: 100px;
+    height: auto;
+    margin: 20px;
+}
