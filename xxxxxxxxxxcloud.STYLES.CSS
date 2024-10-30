@@ -77,7 +77,7 @@ section {
 
 /* Our Team Section */
 .client-section {
-    background-color: ash; /* Ash background from the overall feature */
+    background-color: ash; 
     text-align: center;
     color: black;
 }
