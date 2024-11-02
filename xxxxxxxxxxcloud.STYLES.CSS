@@ -1,4 +1,39 @@
 /* General Styles */
+
+.customer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adds space between the logos */
+    flex-wrap: wrap;
+}
+
+.customer-logo {
+    width: 120px; /* Set a fixed width for the logos */
+    height: auto;
+    object-fit: contain;
+}
+
+.client-section {
+    padding: 100px 0;
+    background-color: #f9f9f9;
+}
+
+.domain-search-form input, .domain-search-form button {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.domain-price-help p {
+    font-weight: bold;
+}
+
+.marquee-text {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,9 +44,9 @@ section {
     padding: 50px 0;
 }
 
-/* Hero Section (First Page) */
+
 .hero-equal-height {
-    background-color: blue; /* Blue background for the first page */
+    background-color: blue;
     color: white;
 }
 
@@ -38,11 +73,12 @@ section {
     height: auto;
 }
 
-/* Domain Search Section */
+
 .find-domain-area {
-    background-color: white; /* White background from search domain */
+    background-color: blue; 
     padding: 50px 0;
     color: black;
+    text-align:center;
 }
 
 .find-domain-area h2 {
@@ -55,6 +91,7 @@ section {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-right: 10px;
+    text-align: center;
 }
 
 .domain-search-form select,
@@ -75,7 +112,7 @@ section {
     font-weight: bold;
 }
 
-/* Our Team Section */
+
 .client-section {
     background-color: ash; 
     text-align: center;
