@@ -171,8 +171,30 @@ body {
 
 .customer-logo {
   height: 100px; 
-}
+} 
+/* Media Queries for Responsiveness */
 
+/* Small Devices (Mobile) */
+@media (max-width: 600px) {
+    .single-customer {
+      width: 50%; /* Logos will be bigger on smaller screens */
+    }
+  }
+  
+  /* Medium Devices (Tablets) */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .single-customer {
+      width: 33.33%; /* Adjust the logo size for tablets */
+    }
+  }
+  
+  /* Large Devices (Desktops) */
+  @media (min-width: 1025px) {
+    .single-customer {
+      width: 20%; /* Adjust the logo size for desktops */
+    }
+  }
+  
 @keyframes scroll {
   0% {
     transform: translateX(100%);

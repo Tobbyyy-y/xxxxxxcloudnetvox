@@ -1,8 +1,5 @@
 //Tobbyy.y
 
-// Example JavaScript code
-console.log('JavaScript file is linked!');
-
 let topButton = document.getElementById("backToTop");
 window.onscroll = function() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
