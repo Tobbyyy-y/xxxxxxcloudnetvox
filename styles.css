@@ -156,6 +156,10 @@ body {
     color: purple;
 }
 
+.edu {
+    color: rgb(14, 166, 52);
+}
+
 
 .customers-container {
   display: flex;
